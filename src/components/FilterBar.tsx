@@ -1,4 +1,4 @@
-import { HStack, Select, Button, Box, Text, VStack } from '@chakra-ui/react';
+import { HStack, Select, Button, Box, VStack } from '@chakra-ui/react';
 import { Grid, List, SlidersHorizontal } from 'lucide-react';
 import { useState } from 'react';
 import { useAppDispatch, useAppSelector } from '../hooks/useAppDispatch';
