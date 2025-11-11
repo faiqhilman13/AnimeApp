@@ -1,0 +1,52 @@
+## tasks
+- Initialize Vite + React + TypeScript project on port 4000
+- Set up Redux store with search, animeDetail, and favorites slices
+- Create Jikan API service with request cancellation
+- Design 1980s-90s retro anime theme (Cowboy Bebop/Samurai Champloo aesthetic)
+- Build SearchPage with instant search (250ms debounce) and pagination
+- Build AnimeDetailPage with cinematic hero banner
+- Build FavoritesPage for saved anime
+- Implement favorites system with localStorage persistence
+- Add heart icons on cards to toggle favorites
+- Create FilterBar with sorting (Score, Popularity, Title, Year)
+- Implement view toggle (Grid/List) with AnimeListView component
+- Add CRT scanlines, film strip borders, and neon glow effects
+- Enhance hero section with "ANIME VAULT" branding and retro badges
+- Add ARIA labels and keyboard navigation for accessibility
+- Fix request cancellation error toasts
+- Fix image placeholder DNS errors
+- Set up Vitest with unit tests for hooks and Redux slices
+- Update README with all bonus features
+- Document all AI usage in PROMPTS.md
+
+## files edited/created
+- `vite.config.ts` - configured port 4000
+- `package.json` - added dependencies and test scripts
+- `src/types/anime.ts` - Jikan API TypeScript interfaces
+- `src/services/jikanApi.ts` - API service with request cancellation
+- `src/store/index.ts` - Redux store configuration
+- `src/store/slices/searchSlice.ts` - search state with sorting/view mode
+- `src/store/slices/animeDetailSlice.ts` - anime detail state
+- `src/store/slices/favoritesSlice.ts` - favorites state management
+- `src/utils/favorites.ts` - localStorage utilities for favorites
+- `src/hooks/useDebounce.ts` - 250ms debounce hook
+- `src/hooks/useAppDispatch.ts` - typed Redux hooks
+- `src/theme/index.ts` - custom Chakra UI retro theme
+- `src/components/SearchBar.tsx` - search input with retro styling
+- `src/components/AnimeCard.tsx` - card with heart icon and film strips
+- `src/components/AnimeListView.tsx` - horizontal list view layout
+- `src/components/AnimeCardSkeleton.tsx` - loading skeleton
+- `src/components/FilterBar.tsx` - sorting and view toggle controls
+- `src/components/Pagination.tsx` - pagination controls
+- `src/components/EmptyState.tsx` - empty/error states with animations
+- `src/pages/SearchPage.tsx` - main search page with CRT effects
+- `src/pages/AnimeDetailPage.tsx` - anime detail with hero banner
+- `src/pages/FavoritesPage.tsx` - favorites collection page
+- `src/App.tsx` - routing setup (/, /anime/:id, /favorites)
+- `src/main.tsx` - app entry point
+- `vitest.config.ts` - test configuration
+- `src/__tests__/setup.ts` - test setup
+- `src/__tests__/hooks/useDebounce.test.ts` - debounce hook tests
+- `src/__tests__/store/searchSlice.test.ts` - Redux slice tests
+- `README.md` - comprehensive documentation with bonus features
+- `PROMPTS.md` - detailed AI usage documentation
