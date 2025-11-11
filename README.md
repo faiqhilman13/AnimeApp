@@ -4,6 +4,12 @@ A beautifully designed anime search application with a retro 1980-90s aesthetic 
 
 ![Anime Search App](https://img.shields.io/badge/React-19.2-blue) ![TypeScript](https://img.shields.io/badge/TypeScript-5.9-blue) ![Redux Toolkit](https://img.shields.io/badge/Redux%20Toolkit-2.10-purple)
 
+## 🚀 Live Demo
+
+**[View Live App →](https://timely-tulumba-ac41cb.netlify.app)**
+
+The app is deployed on Netlify and ready to use!
+
 ## Features
 
 ### Core Functionality
